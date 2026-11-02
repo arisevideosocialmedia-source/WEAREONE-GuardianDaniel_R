@@ -7,6 +7,17 @@
  },
  "videos": [
   {
+   "id": "57tyI_Lcn8E",
+   "title": "WAR REPORT - NOVEMBER 2nd 2026 - THE LIMIT OF CONTROLLED DESTRUCTION",
+   "duration": "5:58",
+   "views": 10,
+   "sec": "war",
+   "op": null,
+   "dateRaw": "Nov 2",
+   "daysAgo": 0,
+   "url": "https://www.youtube.com/watch?v=57tyI_Lcn8E"
+  },
+  {
    "id": "i_yA18tA7ec",
    "title": "WAR REPORT - NOVEMBER 1st 2026 - DOD LAW OF WAR MANUAL",
    "duration": "6:00",
@@ -1072,17 +1083,6 @@
    "dateRaw": "Oct 3",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=JfFL_CWjxus"
-  },
-  {
-   "id": "57tyI_Lcn8E",
-   "title": "WAR REPORT - NOVEMBER 2nd 2026 - THE LIMIT OF CONTROLLED DESTRUCTION",
-   "duration": "5:58",
-   "views": 10,
-   "sec": "war",
-   "op": null,
-   "dateRaw": "Nov 2",
-   "daysAgo": 0,
-   "url": "https://www.youtube.com/watch?v=57tyI_Lcn8E"
   }
  ],
  "counts": {
@@ -1092,16 +1092,16 @@
   "other": 22
  },
  "total": 98,
- "lastBuilt": "2026-11-02 16:42 UTC",
+ "lastBuilt": "2026-11-02 16:45 UTC",
  "featured": {
-  "id": "i_yA18tA7ec",
-  "title": "WAR REPORT - NOVEMBER 1st 2026 - DOD LAW OF WAR MANUAL",
-  "duration": "6:00",
-  "views": 27,
+  "id": "57tyI_Lcn8E",
+  "title": "WAR REPORT - NOVEMBER 2nd 2026 - THE LIMIT OF CONTROLLED DESTRUCTION",
+  "duration": "5:58",
+  "views": 10,
   "sec": "war",
   "op": null,
-  "dateRaw": "Nov 1",
-  "daysAgo": 1,
-  "url": "https://www.youtube.com/watch?v=i_yA18tA7ec"
+  "dateRaw": "Nov 2",
+  "daysAgo": 0,
+  "url": "https://www.youtube.com/watch?v=57tyI_Lcn8E"
  }
 }
