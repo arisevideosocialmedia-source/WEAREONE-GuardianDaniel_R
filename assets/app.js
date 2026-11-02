@@ -186,26 +186,13 @@
     });
   }
 
-  /* ---------- watch page ---------- */
-  var wTitle = $('#watchTitle');
-  if (wTitle) {
-    var vid = decodeURIComponent((location.pathname.match(/\/watch\/([^/]+)/) || [])[1] || '');
+  /* ---------- watch page: related dispatches only (player is server-rendered) ---------- */
+  var relList = $('#relatedList');
+  if (relList) {
+    var relVid = decodeURIComponent((location.pathname.match(/\/watch\/([^/]+)/) || [])[1] || '');
     fill(null, function () {
-      var v = byId[vid];
-      if (!v) { $('#watchMain').innerHTML = '<div class="empty">Dispatch not found.</div>'; return; }
-      document.title = v.title + ' — WE ARE ONE Digital News';
-      var m = metas[v.sec] || metas.other;
-      $('#watchMain').innerHTML = '' +
-        '<div class="embed-16-9 frame-bronze"><iframe src="https://www.youtube-nocookie.com/embed/' + v.id +
-        '?rel=0&modestbranding=1" title="' + esc(v.title) + '" allowfullscreen loading="lazy"></iframe></div>' +
-        '<div style="display:flex;align-items:center;gap:.7rem;margin-top:1.4rem"><span class="chip ' + m.cls + '">' + m.label + '</span>' +
-        (v.op ? '<span class="ep">' + esc(v.op) + '</span>' : '') + '</div>' +
-        '<h1 class="watch-title">' + esc(v.title) + '</h1>' +
-        '<div class="watch-meta"><span>' + (v.dateRaw || '') + '</span><span>' + (v.views ? fmtNum(v.views) + ' views' : '') + '</span></div>' +
-        '<a class="btn btn-ghost" href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">Open on YouTube ▸</a>';
-      var rel = $('#relatedList');
-      if (rel) rel.innerHTML = videos.filter(function (x) { return x.id !== v.id; }).slice(0, 5).map(rowHTML).join('');
-      wTitle.textContent = v.title;
+      relList.innerHTML = videos.filter(function (x) { return x.id !== relVid; })
+        .slice(0, 5).map(rowHTML).join('');
     });
   }
 
