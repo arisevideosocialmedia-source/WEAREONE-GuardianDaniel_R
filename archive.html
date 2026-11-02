@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive — Search All Dispatches | WE ARE ONE Digital News</title>
+<meta name="description" content="Search and filter every War Report, NewsBlast and Short in the WE ARE ONE archive.">
+<meta name="theme-color" content="#050506">
+<meta property="og:site_name" content="WE ARE ONE Digital News">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Archive — Search All Dispatches | WE ARE ONE Digital News">
+<meta property="og:description" content="Search and filter every War Report, NewsBlast and Short in the WE ARE ONE archive.">
+<meta property="og:image" content="https://i.ytimg.com/vi/i_yA18tA7ec/hqdefault.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/we-are-one-news/assets/waveform.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="/we-are-one-news/assets/war-report.svg">
+<link rel="stylesheet" href="/we-are-one-news/assets/app.css">
+</head>
+<body>
+<div class="topbar">
+  <span class="pulse-red"></span>
+  <span>Independent News Commentary &nbsp;•&nbsp; Guardian Daniel_R's War Reports &nbsp;•&nbsp; We Are One</span>
+</div>
+<nav class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/we-are-one-news/" aria-label="WE ARE ONE Digital News — home">
+      <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><rect x="2" y="9" width="5" height="16" rx="1.5" fill="#ff2f2f"/><rect x="9" y="4" width="5" height="26" rx="1.5" fill="#ff2f2f"/><rect x="16" y="12" width="5" height="10" rx="1.5" fill="#ff2f2f"/><rect x="23" y="7" width="5" height="20" rx="1.5" fill="#c9963e"/></svg>
+      <span class="brand-name"><b>WAR&nbsp;REPORT</b><span class="brand-sub">We&nbsp;Are&nbsp;One&nbsp;•&nbsp;Digital&nbsp;News</span></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="/we-are-one-news/war-reports" >War Reports</a>
+      <a href="/we-are-one-news/newsblast" >NewsBlast</a>
+      <a href="/we-are-one-news/shorts" >Shorts</a>
+      <a href="/we-are-one-news/archive" class="active">Archive</a>
+      <a href="/we-are-one-news/about" >About</a>
+      <a href="/we-are-one-news/contact" >Contact</a>
+      <a class="nav-cta" href="/we-are-one-news/contribute">Support ▸</a>
+    </div>
+    <button class="hamburger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+<main>
+<div class="page-hero">
+  <span class="kicker">Full Feed</span>
+  <h1 class="h1">Archive — <em>Search All Dispatches</em></h1>
+  <p class="lead" style="margin-top:.6rem">Search every War Report, NewsBlast and Short. Filter by format or sort by popularity.</p>
+</div>
+
+<div class="searchbar">
+  <span class="icon">🔍</span>
+  <input id="q" type="search" placeholder="Search titles, operations, dates… (e.g. OPERATION, checkmate, commodity)" autocomplete="off">
+</div>
+
+<div class="chips" id="chips">
+  <button class="chip-btn on" data-sec="all" type="button">All</button>
+  <button class="chip-btn" data-sec="war" type="button">✸ War Reports</button>
+  <button class="chip-btn" data-sec="news" type="button">◉ NewsBlast</button>
+  <button class="chip-btn" data-sec="short" type="button">⤢ Shorts</button>
+  <button class="chip-btn" data-sec="other" type="button">▸ Dispatches</button>
+</div>
+
+<div class="filters-bar">
+  <label for="sort" style="font-size:.78rem;color:var(--mut2);letter-spacing:.12em;text-transform:uppercase">Sort</label>
+  <select id="sort">
+    <option value="new">Newest first</option>
+    <option value="views">Most viewed</option>
+    <option value="az">Title A–Z</option>
+  </select>
+</div>
+
+<div class="result-count" id="resultCount"></div>
+<div class="list" id="feedGrid"></div>
+
+</main>
+<footer>
+  <div class="foot-in">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="/we-are-one-news/" style="margin-bottom:.8rem">
+          <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><rect x="2" y="9" width="5" height="16" rx="1.5" fill="#ff2f2f"/><rect x="9" y="4" width="5" height="26" rx="1.5" fill="#ff2f2f"/><rect x="16" y="12" width="5" height="10" rx="1.5" fill="#ff2f2f"/><rect x="23" y="7" width="5" height="20" rx="1.5" fill="#c9963e"/></svg>
+          <span class="brand-name"><b>WAR&nbsp;REPORT</b><span class="brand-sub">We&nbsp;Are&nbsp;One&nbsp;•&nbsp;Digital&nbsp;News</span></span>
+        </a>
+        <p style="color:var(--mut);font-size:.9rem;max-width:340px">The independent news commentary channel of Guardian Daniel_R. Daily war reports, NewsBlasts and field dispatches from the front lines of the awakening.</p>
+        <div class="foot-sign">Guardian Daniel_R</div>
+      </div>
+      <div class="foot-col">
+        <h5>Coverage</h5>
+        <a href="/we-are-one-news/war-reports">Daily War Reports</a>
+        <a href="/we-are-one-news/newsblast">NewsBlast</a>
+        <a href="/we-are-one-news/shorts">Shorts &amp; Clips</a>
+        <a href="/we-are-one-news/archive">Full Archive</a>
+      </div>
+      <div class="foot-col">
+        <h5>Platform</h5>
+        <a href="/we-are-one-news/about">About / Mission</a>
+        <a href="/we-are-one-news/contribute">Support</a>
+        <a href="/we-are-one-news/contact">Contact</a>
+        <a href="/we-are-one-news/#subscribe">Subscribe</a>
+      </div>
+      <div class="foot-col">
+        <h5>Watch on YouTube</h5>
+        <a href="https://www.youtube.com/@WEAREONEpresentsGuardianDaniel" target="_blank" rel="noopener">@WEAREONEpresentsGuardianDaniel</a>
+        <a href="https://www.youtube.com/@WEAREONEpresentsGuardianDaniel/videos" target="_blank" rel="noopener">Latest uploads</a>
+        <a href="https://www.youtube.com/@WEAREONEpresentsGuardianDaniel/shorts" target="_blank" rel="noopener">Shorts</a>
+        <a href="https://www.youtube.com/@WEAREONEpresentsGuardianDaniel/about" target="_blank" rel="noopener">Channel about</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span id="year"></span> WE ARE ONE Digital News — Guardian Daniel_R's War Reports. &nbsp;Independent news commentary. &nbsp;Every report: wake up, stand up, stay united.</span>
+  </div>
+</footer>
+<button class="backtop" id="backTop" aria-label="Back to top">↑</button>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+<script src="/we-are-one-news/assets/app.js"></script>
+</body>
+</html>
