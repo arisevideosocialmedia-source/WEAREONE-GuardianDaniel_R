@@ -54,15 +54,22 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{
-  background:
-    radial-gradient(1200px 600px at 82% -8%, rgba(65,107,130,.20), transparent 62%),
-    radial-gradient(900px 420px at -10% 4%, rgba(232,149,166,.07), transparent 58%),
-    linear-gradient(180deg,#0F1B29 0%, var(--bg) 42%, #0A121C 100%);
-  background-attachment:fixed;
+  background-color:var(--bg);
+  background-image:
+    linear-gradient(180deg, rgba(9,17,26,.86) 0%, rgba(11,21,33,.80) 34%, rgba(10,19,30,.86) 68%, rgba(7,13,21,.93) 100%),
+    url('/we-are-one-news/assets/we-are-one-hero.jpg');
+  background-size:cover, cover;
+  background-position:center center, center 45%;
+  background-repeat:no-repeat, no-repeat;
+  background-attachment:fixed, fixed;
   color:var(--text);
   font-family:var(--ff-body);
   font-size:16px;line-height:1.65;
   min-height:100vh;
+}
+@media (max-width:820px){
+  /* mobile browsers handle fixed backgrounds poorly — pin to the top instead */
+  body{background-attachment:scroll, scroll;background-position:center top, center top;}
 }
 ::selection{background:var(--ember);color:#fff}
 img{max-width:100%;display:block}
@@ -83,9 +90,9 @@ a:hover{color:var(--ice-l)}
 /* ---------- nav ---------- */
 .nav{
   position:sticky;top:0;z-index:50;
-  background:rgba(12,22,34,.82);
-  backdrop-filter:blur(14px) saturate(120%);-webkit-backdrop-filter:blur(14px) saturate(120%);
-  border-bottom:1px solid var(--line);
+  background:rgba(9,17,27,.72);
+  backdrop-filter:blur(18px) saturate(130%);-webkit-backdrop-filter:blur(18px) saturate(130%);
+  border-bottom:1px solid rgba(191,227,234,.12);
 }
 .nav-in{max-width:1240px;margin:0 auto;padding:0 var(--pad);display:flex;align-items:center;gap:1rem;height:var(--nav-h)}
 .brand{display:flex;align-items:center;gap:.7rem;min-width:0}
@@ -121,7 +128,9 @@ a:hover{color:var(--ice-l)}
 }
 
 /* ---------- layout ---------- */
-main{max-width:1240px;margin:0 auto;padding:0 var(--pad) 4rem}
+main{max-width:1240px;margin:0 auto;padding:0 var(--pad) 4rem;position:relative;z-index:1}
+/* keep body copy legible over the artwork */
+.lead,.prose{text-shadow:0 1px 3px rgba(6,12,20,.55)}
 .section{padding:clamp(2.4rem,6vw,4.6rem) 0 0}
 .kicker{
   display:inline-flex;align-items:center;gap:.65rem;
@@ -141,7 +150,8 @@ main{max-width:1240px;margin:0 auto;padding:0 var(--pad) 4rem}
   margin:clamp(1rem,3vw,2rem) calc(-1 * var(--pad)) 0;
   border-radius:0 0 calc(var(--radius) + 8px) calc(var(--radius) + 8px);
   overflow:hidden;
-  background:linear-gradient(180deg,#1B3348 0%, #24455C 38%, #3A6B7E 62%, #6B8E97 82%, #9DB6B8 100%);
+  background:linear-gradient(180deg,rgba(17,33,48,.55) 0%, rgba(24,44,62,.42) 40%, rgba(52,90,108,.34) 72%, rgba(104,138,145,.26) 100%);
+  border-bottom:1px solid rgba(191,227,234,.16);
   isolation:isolate;
 }
 .hero::before{
@@ -152,9 +162,7 @@ main{max-width:1240px;margin:0 auto;padding:0 var(--pad) 4rem}
 }
 .hero::after{
   content:"";position:absolute;inset:0;z-index:-1;
-  background-image:url('/we-are-one-news/assets/we-are-one-hero.jpg');
-  background-size:cover;background-position:center 42%;
-  opacity:.22;mix-blend-mode:luminosity;
+  background:radial-gradient(120% 70% at 50% 0%, rgba(9,17,26,.55), transparent 70%);
 }
 .hero .hero-kicker{
   display:inline-flex;align-items:center;gap:.9rem;color:rgba(228,243,245,.85);
@@ -454,7 +462,8 @@ fieldset{border:0}
 .related{margin-top:2.6rem}
 
 /* ---------- footer ---------- */
-footer{border-top:1px solid var(--line);background:linear-gradient(180deg,#0B1420,#091019);margin-top:4rem}
+footer{border-top:1px solid var(--line);background:linear-gradient(180deg,rgba(9,16,25,.92),rgba(6,11,18,.96));
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);margin-top:4rem}
 .foot-in{max-width:1240px;margin:0 auto;padding:2.8rem var(--pad)}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:2rem}
 @media(max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}.foot-grid>:first-child{grid-column:1/-1}}
