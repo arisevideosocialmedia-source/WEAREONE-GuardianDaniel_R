@@ -199,7 +199,7 @@
   /* ---------- forms: posted straight to the static-form endpoint ----------
      Works on GitHub Pages (no backend needed). Set WAR_FORMS.endpoint below. */
   var WAR_FORMS = {
-    endpoint: '',                     // e.g. https://formspree.io/f/abcdwxyz
+    endpoint: 'https://formspree.io/f/mqppwknw',
     okMsg: 'You\'re on the list, Guardian. The next dispatch is on its way.',
     contactOk: 'Message received \u2014 the ops desk will reply by email.',
     badEmail: 'That email address doesn\'t look right \u2014 check it and try again.',
