@@ -8,13 +8,13 @@
  "videos": [
   {
    "id": "OtsxjoY-TEM",
-   "title": "WAR REPORT - NOVEMER 3rd 2026 - FORECLOSURE OF THE MATRIX",
+   "title": "WAR REPORT - NOVEMBER 3rd 2026 - FORECLOSURE OF THE MATRIX",
    "duration": "6:14",
-   "views": 11,
+   "views": 14,
    "sec": "war",
    "op": null,
    "dateRaw": "Nov 3",
-   "daysAgo": 0.16666666666666666,
+   "daysAgo": 0.20833333333333331,
    "url": "https://www.youtube.com/watch?v=OtsxjoY-TEM"
   },
   {
@@ -1103,16 +1103,16 @@
   "other": 22
  },
  "total": 99,
- "lastBuilt": "2026-11-03 15:46 UTC",
+ "lastBuilt": "2026-11-03 15:58 UTC",
  "featured": {
   "id": "OtsxjoY-TEM",
-  "title": "WAR REPORT - NOVEMER 3rd 2026 - FORECLOSURE OF THE MATRIX",
+  "title": "WAR REPORT - NOVEMBER 3rd 2026 - FORECLOSURE OF THE MATRIX",
   "duration": "6:14",
-  "views": 11,
+  "views": 14,
   "sec": "war",
   "op": null,
   "dateRaw": "Nov 3",
-  "daysAgo": 0.16666666666666666,
+  "daysAgo": 0.20833333333333331,
   "url": "https://www.youtube.com/watch?v=OtsxjoY-TEM"
  }
 }
