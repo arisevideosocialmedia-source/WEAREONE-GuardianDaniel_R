@@ -196,29 +196,62 @@
     });
   }
 
-  /* ---------- forms ---------- */
-  function bindForm(id, url, cb) {
-    var f = $(id); if (!f) return;
+  /* ---------- forms: posted straight to the static-form endpoint ----------
+     Works on GitHub Pages (no backend needed). Set WAR_FORMS.endpoint below. */
+  var WAR_FORMS = {
+    endpoint: '',                     // e.g. https://formspree.io/f/abcdwxyz
+    okMsg: 'You\'re on the list, Guardian. The next dispatch is on its way.',
+    contactOk: 'Message received \u2014 the ops desk will reply by email.',
+    badEmail: 'That email address doesn\'t look right \u2014 check it and try again.',
+    noEndpoint: 'Submissions are not connected yet \u2014 please try again shortly.',
+    fail: 'Something went wrong. Please try again.'
+  };
+
+  function isEmail(v) {
+    return /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test((v || '').trim());
+  }
+
+  function bindForm(sel, okMessage, requireMessage) {
+    var f = $(sel); if (!f) return;
     f.addEventListener('submit', function (e) {
       e.preventDefault();
       var msg = $('#formStatus');
-      if (msg) { msg.textContent = ''; msg.className = 'form-msg'; }
+      function say(text, good) {
+        if (!msg) return;
+        msg.textContent = text;
+        msg.className = 'form-msg ' + (good ? 'ok' : 'err');
+      }
+      var data = new FormData(f);
+      var email = (data.get('email') || '').trim();
+      if (!isEmail(email)) { say(WAR_FORMS.badEmail, false); return; }
+      if (requireMessage && (data.get('message') || '').trim().length < 5) {
+        say('Please add a message of at least a few words.', false); return;
+      }
+      if (!WAR_FORMS.endpoint) { say(WAR_FORMS.noEndpoint, false); return; }
+
       var btn = f.querySelector('button[type=submit]');
       var old = btn ? btn.textContent : '';
-      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
-      var body = new URLSearchParams(new FormData(f));
-      fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Requested-With': 'fetch' }, body: body.toString() })
-        .then(function (r) { return r.json().catch(function () { throw new Error('bad response'); }).then(function (j) { if (!r.ok || !j.ok) throw new Error(j.error || 'Request failed'); return j; }); })
-        .then(function (j) {
-          if (msg) { msg.textContent = j.message || 'Done — thank you.'; msg.classList.add('ok'); }
-          f.reset();
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending\u2026'; }
+      say('', true);
+
+      data.append('_subject', sel === '#contactForm' ? 'WE ARE ONE \u2014 contact message' : 'WE ARE ONE \u2014 new subscriber');
+      fetch(WAR_FORMS.endpoint, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data
+      })
+        .then(function (r) {
+          if (r.ok) return r;
+          return r.json().catch(function () { return {}; }).then(function (j) {
+            var err = (j && j.errors && j.errors[0] && j.errors[0].message) || WAR_FORMS.fail;
+            throw new Error(err);
+          });
         })
-        .catch(function (err) {
-          if (msg) { msg.textContent = err.message || 'Something went wrong. Please try again.'; msg.classList.add('err'); }
-        })
+        .then(function () { say(okMessage, true); f.reset(); })
+        .catch(function (err) { say(err.message || WAR_FORMS.fail, false); })
         .then(function () { if (btn) { btn.disabled = false; btn.textContent = old; } });
     });
   }
-  bindForm('#subForm', '/api/subscribe');
-  bindForm('#contactForm', '/api/contact');
+  bindForm('#subForm', WAR_FORMS.okMsg, false);
+  bindForm('#contactForm', WAR_FORMS.contactOk, true);
 })();
