@@ -529,6 +529,10 @@ footer{border-top:1px solid var(--line);background:linear-gradient(180deg,rgba(9
 .nav-live:hover{background:rgba(216,67,8,.24);color:#fff !important}
 @media (max-width:1020px){.nav-live{margin-left:0;justify-content:center;margin-top:.3rem}}
 
+/* footer follow column: Truth Social embed sits under the links */
+.foot-follow{margin-top:.8rem;min-height:34px}
+.foot-follow iframe{max-width:100%}
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001s !important;transition-duration:.001s !important;animation-iteration-count:1 !important}
   html{scroll-behavior:auto}
