@@ -533,6 +533,16 @@ footer{border-top:1px solid var(--line);background:linear-gradient(180deg,rgba(9
 .foot-follow{margin-top:.8rem;min-height:34px}
 .foot-follow iframe{max-width:100%}
 
+/* live player under the LIVE NOW banner */
+.live-player-wrap{
+  max-width:1240px;margin:1.4rem auto 0;padding:0 var(--pad) 1rem;
+}
+.live-player-wrap .embed-16-9{border-radius:var(--radius);overflow:hidden}
+.live-player-note{
+  margin-top:.6rem;font-size:.8rem;letter-spacing:.06em;color:var(--mut2);text-align:center;
+}
+.live-player-note a{color:var(--ember-l)}
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001s !important;transition-duration:.001s !important;animation-iteration-count:1 !important}
   html{scroll-behavior:auto}
