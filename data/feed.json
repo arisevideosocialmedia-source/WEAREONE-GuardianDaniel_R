@@ -7,46 +7,68 @@
  },
  "videos": [
   {
+   "id": "2JBlIIM7_58",
+   "title": "THE SHOCK THAT BREAKS THE SPELL",
+   "duration": "1:30",
+   "views": 8,
+   "sec": "short",
+   "op": null,
+   "dateRaw": "Nov 4",
+   "daysAgo": 0.625,
+   "url": "https://www.youtube.com/watch?v=2JBlIIM7_58"
+  },
+  {
+   "id": "ujIGGPPviDg",
+   "title": "NOTHING_IS_ACCIDENTAL__The_Military's_Script_Exposed",
+   "duration": "1:05",
+   "views": 16,
+   "sec": "short",
+   "op": null,
+   "dateRaw": "Nov 4",
+   "daysAgo": 0.625,
+   "url": "https://www.youtube.com/watch?v=ujIGGPPviDg"
+  },
+  {
    "id": "NlO9fgQHtH8",
    "title": "WAR REPORT - NOVEMBER 4 2026 - THE DUAL AWAKENING TRIGGER SYSTEMS",
    "duration": "5:27",
-   "views": 6,
+   "views": 20,
    "sec": "war",
    "op": null,
    "dateRaw": "Nov 4",
-   "daysAgo": 0.041666666666666664,
+   "daysAgo": 0.75,
    "url": "https://www.youtube.com/watch?v=NlO9fgQHtH8"
   },
   {
    "id": "48CrstFBboI",
    "title": "WAR REPORT — NOVEMBER 3 2026 - Executive Order 13848",
    "duration": "5:14",
-   "views": 11,
+   "views": 143,
    "sec": "war",
    "op": null,
    "dateRaw": "Nov 4",
-   "daysAgo": 0.125,
+   "daysAgo": 0.8333333333333333,
    "url": "https://www.youtube.com/watch?v=48CrstFBboI"
   },
   {
    "id": "XECyDhuENMw",
    "title": "TODAYS NEWS - NOVEMBER  3RD 2026",
    "duration": "48:02",
-   "views": 20,
+   "views": 29,
    "sec": "news",
    "op": null,
-   "dateRaw": "Nov 3",
-   "daysAgo": 0.8333333333333333,
+   "dateRaw": "Nov 4",
+   "daysAgo": 1,
    "url": "https://www.youtube.com/watch?v=XECyDhuENMw"
   },
   {
    "id": "OtsxjoY-TEM",
    "title": "WAR REPORT - NOVEMBER 3rd 2026 - FORECLOSURE OF THE MATRIX",
    "duration": "6:14",
-   "views": 34,
+   "views": 40,
    "sec": "war",
    "op": null,
-   "dateRaw": "Nov 3",
+   "dateRaw": "Nov 4",
    "daysAgo": 1,
    "url": "https://www.youtube.com/watch?v=OtsxjoY-TEM"
   },
@@ -57,7 +79,7 @@
    "views": 27,
    "sec": "war",
    "op": null,
-   "dateRaw": "Nov 2",
+   "dateRaw": "Nov 3",
    "daysAgo": 2,
    "url": "https://www.youtube.com/watch?v=57tyI_Lcn8E"
   },
@@ -68,7 +90,7 @@
    "views": 35,
    "sec": "war",
    "op": null,
-   "dateRaw": "Nov 1",
+   "dateRaw": "Nov 2",
    "daysAgo": 3,
    "url": "https://www.youtube.com/watch?v=i_yA18tA7ec"
   },
@@ -76,10 +98,10 @@
    "id": "BrzA9pAZYDE",
    "title": "WAR REPORT - OCTOBER 31 2026 - GHOSTS IN THE MACHINE",
    "duration": "5:24",
-   "views": 42,
+   "views": 43,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 31",
+   "dateRaw": "Nov 1",
    "daysAgo": 4,
    "url": "https://www.youtube.com/watch?v=BrzA9pAZYDE"
   },
@@ -87,11 +109,11 @@
    "id": "feUi-SbqmkQ",
    "title": "NOV 17th Emergency Is Coming Short",
    "duration": "1:16",
-   "views": 28,
+   "views": 30,
    "sec": "short",
    "op": null,
    "dateRaw": "Oct 31",
-   "daysAgo": 4,
+   "daysAgo": 5,
    "url": "https://www.youtube.com/watch?v=feUi-SbqmkQ"
   },
   {
@@ -101,7 +123,7 @@
    "views": 16,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 30",
+   "dateRaw": "Oct 31",
    "daysAgo": 5,
    "url": "https://www.youtube.com/watch?v=h2-iyWVq7tw"
   },
@@ -112,7 +134,7 @@
    "views": 46,
    "sec": "war",
    "op": "CENTRAL CASTING",
-   "dateRaw": "Oct 30",
+   "dateRaw": "Oct 31",
    "daysAgo": 5,
    "url": "https://www.youtube.com/watch?v=6tDjc0tBlPI"
   },
@@ -124,7 +146,7 @@
    "sec": "short",
    "op": null,
    "dateRaw": "Oct 30",
-   "daysAgo": 5,
+   "daysAgo": 6,
    "url": "https://www.youtube.com/watch?v=BdiUEVqSGPs"
   },
   {
@@ -134,7 +156,7 @@
    "views": 10,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 29",
+   "dateRaw": "Oct 30",
    "daysAgo": 6,
    "url": "https://www.youtube.com/watch?v=d3FBcDbEEsA"
   },
@@ -142,10 +164,10 @@
    "id": "mbNAbbEIETY",
    "title": "WAR REPORT - OCTOBER 29, 2026 - THE GLOBAL COMMODITY AUDIT",
    "duration": "6:34",
-   "views": 20,
+   "views": 21,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 29",
+   "dateRaw": "Oct 30",
    "daysAgo": 6,
    "url": "https://www.youtube.com/watch?v=mbNAbbEIETY"
   },
@@ -157,7 +179,7 @@
    "sec": "other",
    "op": null,
    "dateRaw": "Oct 29",
-   "daysAgo": 6,
+   "daysAgo": 7,
    "url": "https://www.youtube.com/watch?v=mVRsQ8WppSE"
   },
   {
@@ -167,7 +189,7 @@
    "views": 20,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 28",
+   "dateRaw": "Oct 29",
    "daysAgo": 7,
    "url": "https://www.youtube.com/watch?v=c7EsKIWyg3Y"
   },
@@ -178,7 +200,7 @@
    "views": 43,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 28",
+   "dateRaw": "Oct 29",
    "daysAgo": 7,
    "url": "https://www.youtube.com/watch?v=4e2F2fmob7E"
   },
@@ -190,7 +212,7 @@
    "sec": "news",
    "op": null,
    "dateRaw": "Oct 28",
-   "daysAgo": 7,
+   "daysAgo": 8,
    "url": "https://www.youtube.com/watch?v=4LegoE0x7B0"
   },
   {
@@ -200,7 +222,7 @@
    "views": 7,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 27",
+   "dateRaw": "Oct 28",
    "daysAgo": 8,
    "url": "https://www.youtube.com/watch?v=8HfzxPvlwSw"
   },
@@ -211,7 +233,7 @@
    "views": 10,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 27",
+   "dateRaw": "Oct 28",
    "daysAgo": 8,
    "url": "https://www.youtube.com/watch?v=56BRdu27HHw"
   },
@@ -223,7 +245,7 @@
    "sec": "other",
    "op": null,
    "dateRaw": "Oct 27",
-   "daysAgo": 8,
+   "daysAgo": 9,
    "url": "https://www.youtube.com/watch?v=p27wDFhrsJ0"
   },
   {
@@ -234,7 +256,7 @@
    "sec": "news",
    "op": null,
    "dateRaw": "Oct 27",
-   "daysAgo": 8,
+   "daysAgo": 9,
    "url": "https://www.youtube.com/watch?v=y1nfsia9e8U"
   },
   {
@@ -244,7 +266,7 @@
    "views": 38,
    "sec": "war",
    "op": "GEOPOLITICAL CHECKMATE",
-   "dateRaw": "Oct 26",
+   "dateRaw": "Oct 27",
    "daysAgo": 9,
    "url": "https://www.youtube.com/watch?v=0e9GRjDqaeY"
   },
@@ -255,7 +277,7 @@
    "views": 46,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 25",
+   "dateRaw": "Oct 26",
    "daysAgo": 10,
    "url": "https://www.youtube.com/watch?v=WnfjhfXeWU4"
   },
@@ -266,7 +288,7 @@
    "views": 32,
    "sec": "war",
    "op": "COUNTER - INTELLIGENCE",
-   "dateRaw": "Oct 25",
+   "dateRaw": "Oct 26",
    "daysAgo": 10,
    "url": "https://www.youtube.com/watch?v=0hPR8sklT0Q"
   },
@@ -278,7 +300,7 @@
    "sec": "news",
    "op": null,
    "dateRaw": "Oct 25",
-   "daysAgo": 10,
+   "daysAgo": 11,
    "url": "https://www.youtube.com/watch?v=m1U-MPwJP08"
   },
   {
@@ -288,7 +310,7 @@
    "views": 20,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 24",
+   "dateRaw": "Oct 25",
    "daysAgo": 11,
    "url": "https://www.youtube.com/watch?v=ftLKNxuUE2Y"
   },
@@ -300,7 +322,7 @@
    "sec": "news",
    "op": null,
    "dateRaw": "Oct 24",
-   "daysAgo": 11,
+   "daysAgo": 12,
    "url": "https://www.youtube.com/watch?v=DBKVoPH5UDc"
   },
   {
@@ -310,7 +332,7 @@
    "views": 27,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 23",
+   "dateRaw": "Oct 24",
    "daysAgo": 12,
    "url": "https://www.youtube.com/watch?v=AjtBcM37Dtw"
   },
@@ -321,7 +343,7 @@
    "views": 31,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 23",
+   "dateRaw": "Oct 24",
    "daysAgo": 12,
    "url": "https://www.youtube.com/watch?v=PiStpr0SxlM"
   },
@@ -332,7 +354,7 @@
    "views": 29,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 22",
+   "dateRaw": "Oct 23",
    "daysAgo": 13,
    "url": "https://www.youtube.com/watch?v=arMMU9bsv30"
   },
@@ -343,7 +365,7 @@
    "views": 22,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 22",
+   "dateRaw": "Oct 23",
    "daysAgo": 13,
    "url": "https://www.youtube.com/watch?v=VUekEhzDaFY"
   },
@@ -355,17 +377,17 @@
    "sec": "news",
    "op": null,
    "dateRaw": "Oct 22",
-   "daysAgo": 13,
+   "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=tlRLz8NH3tE"
   },
   {
    "id": "HxzfUSNK7UQ",
    "title": "GARDIAN DANIEL_R's SPECIAL REPORT",
    "duration": "5:40",
-   "views": 69,
+   "views": 71,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=HxzfUSNK7UQ"
   },
@@ -376,7 +398,7 @@
    "views": 49,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=SiAgx8DdGvw"
   },
@@ -387,7 +409,7 @@
    "views": 18,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=I627YBfnoiw"
   },
@@ -398,7 +420,7 @@
    "views": 28,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=PY4Kv4fGh64"
   },
@@ -409,7 +431,7 @@
    "views": 34,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=zWqDlNL-68U"
   },
@@ -420,7 +442,7 @@
    "views": 22,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=k4JPT4mG-Ak"
   },
@@ -431,7 +453,7 @@
    "views": 14,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=3FZuw8iQ2Ts"
   },
@@ -439,10 +461,10 @@
    "id": "fgUwWexcowk",
    "title": "WAR REPORT - OCT 18 2026 - ALLIED ENFORCEMENT PROTOCOL",
    "duration": "6:24",
-   "views": 25,
+   "views": 26,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=fgUwWexcowk"
   },
@@ -453,7 +475,7 @@
    "views": 36,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=wFLUprR4L9A"
   },
@@ -464,7 +486,7 @@
    "views": 22,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=3IJI_Ds2Fzc"
   },
@@ -475,7 +497,7 @@
    "views": 17,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=4_QbsgHULI0"
   },
@@ -483,10 +505,10 @@
    "id": "ojua7OoEyRc",
    "title": "John Michael Chambers Invites Guests to Talk About Guardian Daniel R's War Reports.",
    "duration": "8:00",
-   "views": 37,
+   "views": 38,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=ojua7OoEyRc"
   },
@@ -497,7 +519,7 @@
    "views": 26,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=P0ukwYe4gy0"
   },
@@ -508,7 +530,7 @@
    "views": 12,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=ddjtMzEv8KE"
   },
@@ -519,7 +541,7 @@
    "views": 11,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=czPcOpW_Da8"
   },
@@ -530,7 +552,7 @@
    "views": 11,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=fdi9BCrRUrs"
   },
@@ -541,7 +563,7 @@
    "views": 26,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 21",
+   "dateRaw": "Oct 22",
    "daysAgo": 14,
    "url": "https://www.youtube.com/watch?v=AADheVYrBuo"
   },
@@ -552,19 +574,19 @@
    "views": 11,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 21",
-   "daysAgo": 14,
+   "dateRaw": "Oct 15",
+   "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=AUxA5hlXdZQ"
   },
   {
    "id": "nBnHMzNkxzg",
    "title": "BEFORE THE GREAT AWAKENING",
    "duration": "26:08",
-   "views": 25,
+   "views": 26,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 21",
-   "daysAgo": 14,
+   "dateRaw": "Oct 15",
+   "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=nBnHMzNkxzg"
   },
   {
@@ -574,7 +596,7 @@
    "views": 37,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=eC_fkurT93o"
   },
@@ -585,7 +607,7 @@
    "views": 19,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=02IELvch_A8"
   },
@@ -596,7 +618,7 @@
    "views": 41,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=1DPmfM7YsOI"
   },
@@ -607,7 +629,7 @@
    "views": 32,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=skUSYTfWYXE"
   },
@@ -618,7 +640,7 @@
    "views": 28,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=0zkt7r3WMQI"
   },
@@ -629,7 +651,7 @@
    "views": 36,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=SmLncZQYeBU"
   },
@@ -640,7 +662,7 @@
    "views": 25,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=IkRYOsNDS-U"
   },
@@ -651,7 +673,7 @@
    "views": 26,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=Upv-OviwUn4"
   },
@@ -662,7 +684,7 @@
    "views": 15,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=0_J9oXZfDm8"
   },
@@ -673,7 +695,7 @@
    "views": 25,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 14",
+   "dateRaw": "Oct 15",
    "daysAgo": 21,
    "url": "https://www.youtube.com/watch?v=VgU_jux1EYs"
   },
@@ -684,8 +706,8 @@
    "views": 14,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 14",
-   "daysAgo": 21,
+   "dateRaw": "Oct 8",
+   "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=AtC3Ul_hCVs"
   },
   {
@@ -695,7 +717,7 @@
    "views": 13,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=kwOMLtle1qk"
   },
@@ -706,7 +728,7 @@
    "views": 32,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=ZAmEdyKLHbk"
   },
@@ -717,7 +739,7 @@
    "views": 12,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=dkP0vkKtXkI"
   },
@@ -728,7 +750,7 @@
    "views": 18,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=D3uTycSYk7g"
   },
@@ -739,7 +761,7 @@
    "views": 40,
    "sec": "news",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=gYz6MX_edWc"
   },
@@ -747,10 +769,10 @@
    "id": "r-PP1LPH628",
    "title": "Q   The Plan To Save The World by Joe M",
    "duration": "46:14",
-   "views": 30,
+   "views": 31,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=r-PP1LPH628"
   },
@@ -761,7 +783,7 @@
    "views": 28,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=HyvsdIsA9Xg"
   },
@@ -772,7 +794,7 @@
    "views": 33,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=hOB-ooXMo4M"
   },
@@ -780,10 +802,10 @@
    "id": "o6qts5yc4wY",
    "title": "WE ARE WATCHING A MOVIE",
    "duration": "1:06",
-   "views": 68,
+   "views": 69,
    "sec": "short",
    "op": null,
-   "dateRaw": "Oct 7",
+   "dateRaw": "Oct 8",
    "daysAgo": 28,
    "url": "https://www.youtube.com/watch?v=o6qts5yc4wY"
   },
@@ -794,8 +816,8 @@
    "views": 22,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 7",
-   "daysAgo": 28,
+   "dateRaw": "Oct 6",
+   "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=OkHFpChP_7o"
   },
   {
@@ -805,8 +827,8 @@
    "views": 16,
    "sec": "short",
    "op": null,
-   "dateRaw": "Oct 7",
-   "daysAgo": 28,
+   "dateRaw": "Oct 6",
+   "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=nyFZkTNjfrk"
   },
   {
@@ -816,7 +838,7 @@
    "views": 31,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=NoCIjFOUNDo"
   },
@@ -827,7 +849,7 @@
    "views": 17,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=nVYstyuhw2E"
   },
@@ -838,7 +860,7 @@
    "views": 44,
    "sec": "short",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=HcJoFBWwAOw"
   },
@@ -849,7 +871,7 @@
    "views": 5,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=-rJ3THInP70"
   },
@@ -860,7 +882,7 @@
    "views": 33,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=bZCrbJxwlhk"
   },
@@ -871,7 +893,7 @@
    "views": 15,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=NYI0DvSqsHc"
   },
@@ -882,7 +904,7 @@
    "views": 15,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=4KJhL97i7SQ"
   },
@@ -893,7 +915,7 @@
    "views": 19,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=GLsOo3dCcz4"
   },
@@ -904,7 +926,7 @@
    "views": 5,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=a_wXv8sZJ-A"
   },
@@ -915,7 +937,7 @@
    "views": 25,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=mSoO2TB8PYE"
   },
@@ -923,10 +945,10 @@
    "id": "IiwzXaQ83ig",
    "title": "WAR REPORT OCTOBER 1ST 2026",
    "duration": "4:55",
-   "views": 99,
+   "views": 105,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=IiwzXaQ83ig"
   },
@@ -937,7 +959,7 @@
    "views": 18,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=vO4dbzsXd9c"
   },
@@ -948,7 +970,7 @@
    "views": 9,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=BD958WKjo6o"
   },
@@ -959,7 +981,7 @@
    "views": 65,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=lu5pW3dMVDc"
   },
@@ -967,10 +989,10 @@
    "id": "5sOUWrEAvWA",
    "title": "WAR REPORT   SEPTEMBER 29 2026   THE FINAL BATTLE",
    "duration": "4:57",
-   "views": 62,
+   "views": 63,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=5sOUWrEAvWA"
   },
@@ -981,7 +1003,7 @@
    "views": 6,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=wVKpVIY4gjs"
   },
@@ -992,7 +1014,7 @@
    "views": 24,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=WmmBdWnxQtk"
   },
@@ -1003,7 +1025,7 @@
    "views": 15,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=sjD-mnVNPjg"
   },
@@ -1014,7 +1036,7 @@
    "views": 61,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=08JtuVm8EuM"
   },
@@ -1025,7 +1047,7 @@
    "views": 11,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=8LKIneAlwIE"
   },
@@ -1033,10 +1055,10 @@
    "id": "y0iE1LMSLDY",
    "title": "ME N SHANNON TALK ELVIS AND MARILYN MONROE",
    "duration": "1:12:34",
-   "views": 100,
+   "views": 101,
    "sec": "other",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=y0iE1LMSLDY"
   },
@@ -1047,7 +1069,7 @@
    "views": 17,
    "sec": "short",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=4E8Txozc5yY"
   },
@@ -1058,7 +1080,7 @@
    "views": 43,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=zatKzLG5oDk"
   },
@@ -1066,10 +1088,10 @@
    "id": "E3RUmr8ygWs",
    "title": "WAR REPORT   SEPTEMBER 25 2026   THE TAKEDOWN IS REAL",
    "duration": "3:56",
-   "views": 46,
+   "views": 48,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=E3RUmr8ygWs"
   },
@@ -1080,7 +1102,7 @@
    "views": 25,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=aBhmjCfsabA"
   },
@@ -1091,7 +1113,7 @@
    "views": 48,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=03w2HlLDM-o"
   },
@@ -1102,7 +1124,7 @@
    "views": 44,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=c4efGtfH2Rs"
   },
@@ -1113,7 +1135,7 @@
    "views": 38,
    "sec": "war",
    "op": "MOCKINGBIRD",
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=tVj19_b9fy0"
   },
@@ -1121,10 +1143,10 @@
    "id": "JfFL_CWjxus",
    "title": "WAR REPORT - SEPTEMBER 20 2026 - WWG1WGA THE FINAL ACT",
    "duration": "5:01",
-   "views": 109,
+   "views": 110,
    "sec": "war",
    "op": null,
-   "dateRaw": "Oct 5",
+   "dateRaw": "Oct 6",
    "daysAgo": 30,
    "url": "https://www.youtube.com/watch?v=JfFL_CWjxus"
   }
@@ -1132,20 +1154,20 @@
  "counts": {
   "war": 48,
   "news": 26,
-  "short": 6,
+  "short": 8,
   "other": 22
  },
- "total": 102,
- "lastBuilt": "2026-11-04 15:49 UTC",
+ "total": 104,
+ "lastBuilt": "2026-11-05 08:59 UTC",
  "featured": {
-  "id": "NlO9fgQHtH8",
-  "title": "WAR REPORT - NOVEMBER 4 2026 - THE DUAL AWAKENING TRIGGER SYSTEMS",
-  "duration": "5:27",
-  "views": 6,
-  "sec": "war",
+  "id": "2JBlIIM7_58",
+  "title": "THE SHOCK THAT BREAKS THE SPELL",
+  "duration": "1:30",
+  "views": 8,
+  "sec": "short",
   "op": null,
   "dateRaw": "Nov 4",
-  "daysAgo": 0.041666666666666664,
-  "url": "https://www.youtube.com/watch?v=NlO9fgQHtH8"
+  "daysAgo": 0.625,
+  "url": "https://www.youtube.com/watch?v=2JBlIIM7_58"
  }
 }
