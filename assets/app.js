@@ -54,7 +54,7 @@
   function th(v) { return v.thumb || ('https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg'); }
 
   function fill(dest, cb) {
-    fetch('/WEAREONE-GuardianDaniel_R/data/feed.json')
+    fetch('/data/feed.json')
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (data) {
         videos.length = 0;
